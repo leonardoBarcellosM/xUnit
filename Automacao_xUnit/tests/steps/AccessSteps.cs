@@ -4,7 +4,7 @@ using Xunit;
 namespace Automacao_xUnit.tests.steps
 {
     [Binding]
-    public class AccessSteps
+    public class AccessSteps : IClassFixture<AcessPageActions>
     {
         private AcessPageActions pageAction = new AcessPageActions();
         //private FilaDeTrabalhoActions Fila = new FilaDeTrabalhoActions();
