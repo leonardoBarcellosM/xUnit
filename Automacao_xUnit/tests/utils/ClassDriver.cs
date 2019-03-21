@@ -44,17 +44,17 @@ namespace Automacao_xUnit.tests.steps
         public void StartDriver(string typeBrowser)
         {
             var currentPath = Directory.GetCurrentDirectory();
-            string path = "";
-            
+            string path = $"{currentPath}/../../../WebDriverLinux";
 
-            if(Environment.OSVersion.Platform == PlatformID.Win32NT)
-            {
-                path = $"{currentPath}\\..\\..\\..\\WebDriverWindows";
-            }
-            else
-            {
-                path = $"{currentPath}/../../../WebDriverLinux";
-            }
+
+            //if (Environment.OSVersion.Platform == PlatformID.Win32NT)
+            //{
+            //    path = $"{currentPath}\\..\\..\\..\\WebDriverWindows";
+            //}
+            //else
+            //{
+            //    path = $"{currentPath}/../../../WebDriverLinux";
+            //}
 
             //"C:\Users\leonardo.barcellos\source\repos\Teste\Automacao_xUnit_Fundacred\WebDriverWindows\chromedriver.exe"
 
