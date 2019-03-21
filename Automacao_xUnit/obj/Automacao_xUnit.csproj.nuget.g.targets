@@ -10,6 +10,6 @@
     <Import Project="$(NuGetPackageRoot)xunit.core\2.4.1\build\xunit.core.targets" Condition="Exists('$(NuGetPackageRoot)xunit.core\2.4.1\build\xunit.core.targets')" />
     <Import Project="$(NuGetPackageRoot)specflow.xunit\3.0.177-beta\build\SpecFlow.xUnit.targets" Condition="Exists('$(NuGetPackageRoot)specflow.xunit\3.0.177-beta\build\SpecFlow.xUnit.targets')" />
     <Import Project="$(NuGetPackageRoot)specflow.tools.msbuild.generation\3.0.177-beta\build\SpecFlow.Tools.MsBuild.Generation.targets" Condition="Exists('$(NuGetPackageRoot)specflow.tools.msbuild.generation\3.0.177-beta\build\SpecFlow.Tools.MsBuild.Generation.targets')" />
-    <Import Project="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.2.0\build\netcoreapp2.2\Microsoft.NETCore.App.targets" Condition="Exists('C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.2.0\build\netcoreapp2.2\Microsoft.NETCore.App.targets')" />
+    <Import Project="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\build\netcoreapp2.1\Microsoft.NETCore.App.targets" Condition="Exists('C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\build\netcoreapp2.1\Microsoft.NETCore.App.targets')" />
   </ImportGroup>
 </Project>

@@ -1,0 +1,15 @@
+C:\Users\leonardo.barcellos\source\repos\Automacao_xUnit\Automacao_xUnit\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\leonardo.barcellos\source\repos\Automacao_xUnit\Automacao_xUnit\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\leonardo.barcellos\source\repos\Automacao_xUnit\Automacao_xUnit\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\leonardo.barcellos\source\repos\Automacao_xUnit\Automacao_xUnit\bin\Debug\netcoreapp2.1\TechTalk.SpecFlow.xUnit.SpecFlowPlugin.dll
+C:\Users\leonardo.barcellos\source\repos\Automacao_xUnit\Automacao_xUnit\bin\Debug\netcoreapp2.1\Automacao_xUnit.deps.json
+C:\Users\leonardo.barcellos\source\repos\Automacao_xUnit\Automacao_xUnit\bin\Debug\netcoreapp2.1\Automacao_xUnit.runtimeconfig.json
+C:\Users\leonardo.barcellos\source\repos\Automacao_xUnit\Automacao_xUnit\bin\Debug\netcoreapp2.1\Automacao_xUnit.runtimeconfig.dev.json
+C:\Users\leonardo.barcellos\source\repos\Automacao_xUnit\Automacao_xUnit\bin\Debug\netcoreapp2.1\Automacao_xUnit.dll
+C:\Users\leonardo.barcellos\source\repos\Automacao_xUnit\Automacao_xUnit\bin\Debug\netcoreapp2.1\Automacao_xUnit.pdb
+C:\Users\leonardo.barcellos\source\repos\Automacao_xUnit\Automacao_xUnit\obj\Debug\netcoreapp2.1\Automacao_xUnit.csprojAssemblyReference.cache
+C:\Users\leonardo.barcellos\source\repos\Automacao_xUnit\Automacao_xUnit\obj\Debug\netcoreapp2.1\Automacao_xUnit.csproj.CoreCompileInputs.cache
+C:\Users\leonardo.barcellos\source\repos\Automacao_xUnit\Automacao_xUnit\obj\Debug\netcoreapp2.1\Automacao_xUnit.AssemblyInfoInputs.cache
+C:\Users\leonardo.barcellos\source\repos\Automacao_xUnit\Automacao_xUnit\obj\Debug\netcoreapp2.1\Automacao_xUnit.AssemblyInfo.cs
+C:\Users\leonardo.barcellos\source\repos\Automacao_xUnit\Automacao_xUnit\obj\Debug\netcoreapp2.1\Automacao_xUnit.dll
+C:\Users\leonardo.barcellos\source\repos\Automacao_xUnit\Automacao_xUnit\obj\Debug\netcoreapp2.1\Automacao_xUnit.pdb
