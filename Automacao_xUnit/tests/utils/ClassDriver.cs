@@ -6,7 +6,7 @@ using OpenQA.Selenium.IE;
 using System;
 using System.IO;
 
-namespace Automacao_Funcional.tests.steps
+namespace Automacao_xUnit.tests.steps
 {
     class ClassDriver
     {
@@ -56,7 +56,7 @@ namespace Automacao_Funcional.tests.steps
                 path = $"{currentPath}/../../../WebDriverLinux";
             }
 
-            //"C:\Users\leonardo.barcellos\source\repos\Teste\Automacao_Funcional_Fundacred\WebDriverWindows\chromedriver.exe"
+            //"C:\Users\leonardo.barcellos\source\repos\Teste\Automacao_xUnit_Fundacred\WebDriverWindows\chromedriver.exe"
 
             switch (typeBrowser)
             {

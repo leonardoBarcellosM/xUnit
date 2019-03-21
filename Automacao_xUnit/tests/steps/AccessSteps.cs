@@ -1,7 +1,7 @@
 ﻿using TechTalk.SpecFlow;
 using Xunit;
 
-namespace Automacao_Funcional.tests.steps
+namespace Automacao_xUnit.tests.steps
 {
     [Binding]
     public class AccessSteps

@@ -4,7 +4,7 @@ using System.Drawing;
 using System.Globalization;
 using System.Threading;
 
-namespace Automacao_Funcional.tests.steps
+namespace Automacao_xUnit.tests.steps
 {
     class ClassUtilities
     {

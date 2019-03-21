@@ -2,7 +2,7 @@
 using System;
 using System.Threading;
 
-namespace Automacao_Funcional.tests.steps
+namespace Automacao_xUnit.tests.steps
 {
     class AcessPageActions : AccessElementsMap
     {
