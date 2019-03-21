@@ -1,4 +1,4 @@
-﻿Feature: H-Portal_Estudante_Fluxo_De_Solicitacao
+﻿Feature: Portal_Estudante_Fluxo_De_Solicitacao
 	Use before title fiture separed with "-":
 	 'C' for Chrome;
 	 'I' for Internet Explorer;

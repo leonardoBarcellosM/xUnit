@@ -17,7 +17,7 @@ namespace Automacao_xUnit.Features
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.0.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public partial class H_Portal_Estudante_Fluxo_De_SolicitacaoFeature : Xunit.IClassFixture<H_Portal_Estudante_Fluxo_De_SolicitacaoFeature.FixtureData>, System.IDisposable
+    public partial class Portal_Estudante_Fluxo_De_SolicitacaoFeature : Xunit.IClassFixture<Portal_Estudante_Fluxo_De_SolicitacaoFeature.FixtureData>, System.IDisposable
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
@@ -27,7 +27,7 @@ namespace Automacao_xUnit.Features
 #line 1 "Portal_Estudante_Fluxo_De_Solicitacao.feature"
 #line hidden
         
-        public H_Portal_Estudante_Fluxo_De_SolicitacaoFeature(H_Portal_Estudante_Fluxo_De_SolicitacaoFeature.FixtureData fixtureData, Xunit.Abstractions.ITestOutputHelper testOutputHelper)
+        public Portal_Estudante_Fluxo_De_SolicitacaoFeature(Portal_Estudante_Fluxo_De_SolicitacaoFeature.FixtureData fixtureData, Xunit.Abstractions.ITestOutputHelper testOutputHelper)
         {
             this._testOutputHelper = testOutputHelper;
             this.TestInitialize();
@@ -36,7 +36,7 @@ namespace Automacao_xUnit.Features
         public static void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "H-Portal_Estudante_Fluxo_De_Solicitacao", "\tUse before title fiture separed with \"-\":\r\n\t \'C\' for Chrome;\r\n\t \'I\' for Internet" +
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Portal_Estudante_Fluxo_De_Solicitacao", "\tUse before title fiture separed with \"-\":\r\n\t \'C\' for Chrome;\r\n\t \'I\' for Internet" +
                     " Explorer;\r\n\t \'F\' for FireFox Mozilla;\r\n\t \'E\' for Edge;\r\n\t \'H\' for Headless Chro" +
                     "me;\r\n\t Default: Chrome", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
@@ -79,7 +79,7 @@ namespace Automacao_xUnit.Features
         }
         
         [Xunit.FactAttribute(DisplayName="01 Acessar o endereco")]
-        [Xunit.TraitAttribute("FeatureTitle", "H-Portal_Estudante_Fluxo_De_Solicitacao")]
+        [Xunit.TraitAttribute("FeatureTitle", "Portal_Estudante_Fluxo_De_Solicitacao")]
         [Xunit.TraitAttribute("Description", "01 Acessar o endereco")]
         [Xunit.TraitAttribute("Category", "01_AcessarPagina")]
         public virtual void _01AcessarOEndereco()
@@ -104,12 +104,12 @@ testRunner.Then("Validar o carregamento", ((string)(null)), ((TechTalk.SpecFlow.
             
             public FixtureData()
             {
-                H_Portal_Estudante_Fluxo_De_SolicitacaoFeature.FeatureSetup();
+                Portal_Estudante_Fluxo_De_SolicitacaoFeature.FeatureSetup();
             }
             
             void System.IDisposable.Dispose()
             {
-                H_Portal_Estudante_Fluxo_De_SolicitacaoFeature.FeatureTearDown();
+                Portal_Estudante_Fluxo_De_SolicitacaoFeature.FeatureTearDown();
             }
         }
     }

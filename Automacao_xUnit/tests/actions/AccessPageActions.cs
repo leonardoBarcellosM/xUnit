@@ -1,5 +1,4 @@
 ﻿using OpenQA.Selenium;
-using SeleniumExtras.PageObjects;
 using System;
 using System.Threading;
 
@@ -9,10 +8,10 @@ namespace Automacao_Funcional.tests.steps
     {
         private ClassUtilities util = new ClassUtilities();
 
-        public void AccessPage()
-        {
-            PageFactory.InitElements(ClassDriver.GetInstance().Driver, this);
-        }
+        //public void AccessPage()
+        //{
+        //    PageFactory.InitElements(ClassDriver.GetInstance().Driver, this);
+        //}
 
         public bool AccessPage(string url)
         {
