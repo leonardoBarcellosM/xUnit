@@ -5,14 +5,14 @@ using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.IE;
 using System;
 using System.IO;
+using Xunit;
 
 namespace Automacao_xUnit.tests.steps
 {
-    class ClassDriver
+    class ClassDriver : IDisposable
     {
         private static ClassDriver classDriver;
         private IWebDriver driver;
-
 
         public IWebDriver Driver
         {
@@ -79,7 +79,7 @@ namespace Automacao_xUnit.tests.steps
                 case "H":
                     ChromeOptions options = new ChromeOptions();
                     options.AddArguments(path, "--window-size=1800,2000", "--headless", "--disable-gpu", "--no-sandbox");
-                    driver = new ChromeDriver(path, options);
+                    Driver = new ChromeDriver(path, options);
                     break;
 
                 default:
@@ -93,6 +93,18 @@ namespace Automacao_xUnit.tests.steps
         public void QuitDriver()
         {
             Driver.Quit();
+        }
+
+        public void Dispose()
+        {
+            classDriver.Dispose();
+        }
+
+        [CollectionDefinition("tests")]
+        public class IntegrationTestCollection : ICollectionFixture<ClassDriver>
+        {
+            // Intentionally left blank.
+            // This class only serves as an anchor for CollectionDefinition.
         }
     }
 }

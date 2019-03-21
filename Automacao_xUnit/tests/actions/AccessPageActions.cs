@@ -1,17 +1,26 @@
 ﻿using OpenQA.Selenium;
 using System;
+using System.ComponentModel;
 using System.Threading;
+using Xunit;
 
 namespace Automacao_xUnit.tests.steps
 {
+    [Collection("tests")]
     class AcessPageActions : AccessElementsMap
     {
         private ClassUtilities util = new ClassUtilities();
 
-        //public void AccessPage()
-        //{
-        //    PageFactory.InitElements(ClassDriver.GetInstance().Driver, this);
-        //}
+        ClassDriver fixture;
+
+        public AcessPageActions()
+        {
+        }
+
+        public AcessPageActions(ClassDriver fixture)
+        {
+            this.fixture = fixture;
+        }
 
         public bool AccessPage(string url)
         {
@@ -21,12 +30,19 @@ namespace Automacao_xUnit.tests.steps
                 ClassDriver.GetInstance().Driver.Navigate().GoToUrl(url);
                 _result = true;
             }
-            catch (Exception)
+            catch (Win32Exception w)
             {
-
+                Console.WriteLine(w.Message);
+                Console.WriteLine(w.ErrorCode.ToString());
+                Console.WriteLine(w.NativeErrorCode.ToString());
+                Console.WriteLine(w.StackTrace);
+                Console.WriteLine(w.Source);
+                Exception e = w.GetBaseException();
+                Console.WriteLine(e.Message);
             }
             return _result;
         }
+
 
         public bool ValidAccessPage()
         {

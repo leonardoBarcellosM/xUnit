@@ -1,18 +1,18 @@
-﻿using TechTalk.SpecFlow;
+﻿using System;
+using TechTalk.SpecFlow;
 using Xunit;
 
 namespace Automacao_xUnit.tests.steps
 {
     [Binding]
-    public class AccessSteps : IClassFixture<AcessPageActions>
+    public class AccessSteps
     {
-        private AcessPageActions pageAction = new AcessPageActions();
-        //private FilaDeTrabalhoActions Fila = new FilaDeTrabalhoActions();
+        AcessPageActions pageActions = new AcessPageActions();
 
         [Given(@"Acessar o endereco ""(.*)""")]
         public void GivenAcessarOEndereco(string url)
         {
-            var result = pageAction.AccessPage(url);
+            var result = pageActions.AccessPage(url);
 
                 Assert.True(result, "Erro ao acessar a URL -> " + url);
         }
@@ -20,7 +20,7 @@ namespace Automacao_xUnit.tests.steps
         [Then(@"Validar o carregamento")]
         public void ThenValidarOCarregamentoComSucesso()
         {
-            var result = pageAction.ValidAccessPage();
+            var result = pageActions.ValidAccessPage();
 
             Assert.True(result, "Erro ao acessar a endereço solicitado");
         }
